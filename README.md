@@ -16,6 +16,8 @@ The project would need the following software
 
 ### Installation instructions for the software and firmware.
 - Install Python 3.5 and above 
+- Install virtualenvwrapper using pip
+- Create a virtual environment using pip mkvirtualenv
 - Install Jupyter notebook
 - Or run the project using python on a command line
 
