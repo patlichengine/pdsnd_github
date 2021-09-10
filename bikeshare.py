@@ -209,6 +209,19 @@ def display_data(df):
         print(df.iloc[start_loc:start_loc+10])
         start_loc += 10
      
+#function to get the number of rows the user wants to see per time
+def get_display_count():
+    start_no = 5
+    while True:
+        try:
+            start_no = int(input("How many records would like to display at a time: "))
+            if start_no > 0:
+                break
+            print("Please enter a number for the records to view")
+        except ValueError as e:
+            print(e)
+
+    return start_no   
 
 def main():
     while True:
