@@ -197,17 +197,21 @@ def user_stats(df):
 
 def display_data(df):
     start_loc = 0
+    display_no = 0
     while True:
         if start_loc == 0:
             view_data = input("Would you like to view rows of individual trip data? Enter yes or no? ")
+            #get the number of records to display
+            if display_no == 0:
+                display_no = get_display_count()
         else:
             view_data = input("Would you like to view more rows of individual trip data? Enter yes or no? ")
         
         if view_data.lower() == 'no' or view_data.lower() == 'n':
             break
             
-        print(df.iloc[start_loc:start_loc+10])
-        start_loc += 10
+        print(df.iloc[start_loc:start_loc+display_no])
+        start_loc += display_no
 
 def get_display_count():
     start_no = 5
