@@ -12,7 +12,7 @@ The project would need the following software
 - pandan
 - numpy
 - python
-- You can also use jupyter notebook configured on a virtual environment
+- Note that you can also use jupyter notebook configured on a virtual environment
 
 ### Installation instructions for the software and firmware.
 - Install Python 3.5 and above 
