@@ -1,5 +1,5 @@
 >### Date created:
-9th September, 2021
+The project was created on 9th September, 2021
 
 ### Project Title
 The title of the project is Explore US Bikeshare project
